@@ -25,5 +25,31 @@
             </ul>
         </nav>
     </header>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Contact Us and let us know how we can help you!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+
+            <label for="query-type">What does my query concern:</label>
+            <select name="query-type" id="query-type" name="query-type">
+                <option value="general" selected>General Equiry</option>
+                <option value="consultation">Fit and Style Consultation</option>
+                <option value="alteration_repair">Alterations and Repairs</option>
+                <option value="recycling_donation">Recycling and Donations</option>
+            </select>
+            
+            <label for="your-query">Your query:</label>
+            <textarea type="text" id="your-query" cols="50" rows="10" name="query_text" placeholder="Tell us what you would like to know?" required></textarea>
+            
+            <input type="submit" value="Send my Query!">
+        </form>
+    </section>
 </body>
 </html>
