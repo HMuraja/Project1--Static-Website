@@ -125,3 +125,32 @@ header a {
     box-sizing: border-box;
     margin: 1.5px;
 }
+/*Footer Styling*/
+
+footer {
+    padding-top: 20px;
+}
+footer h3 {
+    text-decoration: none;
+    text-align: center;
+}
+
+footer div{
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+}
+
+table{
+    width: 90%;
+    text-align: right;
+}
+
+.social-network {
+    font-size: 250%;
+    margin:1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
