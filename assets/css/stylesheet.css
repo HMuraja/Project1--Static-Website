@@ -154,3 +154,39 @@ table{
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Additional styling for about our services */
+.services {
+    display: inline-block;
+    width: 24%;
+    height: 600px;
+    text-align: center;
+    vertical-align: top;
+} 
+
+#fitting-img{
+    background: url(../images/fitting-room.jpg) no-repeat center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+#measure-img{
+    background: url(../images/measuring-assitance.jpg) no-repeat center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+#sewingmachine-img{
+    background: url(../images/sewing-machine.jpg) no-repeat center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+#box-jeans-img{
+    background: url(../images/box-of-jeans.jpg) no-repeat center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
