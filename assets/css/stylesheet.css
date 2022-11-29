@@ -163,6 +163,9 @@ table{
     text-align: center;
     vertical-align: top;
 } 
+.services h2{
+    text-align: center;
+}
 
 #fitting-img{
     background: url(../images/fitting-room.jpg) no-repeat center center;
@@ -189,4 +192,75 @@ table{
     height: 300px;
     background-size: cover;
 }
+/*Query Form Style*/
+.form-section {
+    clear: left;
+    background: url(../images/jeans-stack.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.signup-form {
+    margin:150px 10% 0 0;
+    color: #fff;
+    background-color:  rgba(53, 65, 66, 0.8);
+    max-width: 800px;
+    position:absolute;
+    left: 10%;
+    padding:40px;
+    border-radius: 3px;
+    border: 5px double #fff;
+}
+
+.signup-form > h2 {
+    color:#fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    }
+
+.drop-down-text{
+    color: #354142;
+}
+.text-input:hover{
+    border-color: #ff8a43;
+}
+
+.text-field{
+    background:#354142;
+    color:#fafafa;
+    width: 100%;
+    height: 100px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    }
+
+.send-query-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ff8a43;
+    color: #fafafa;
+    display: block;
+}
+
+.send-query-button:hover{
+    background-color:#354142;
+    color: #ff8a43;
+    border: 1px solid #fff;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px){}
 
