@@ -9,6 +9,7 @@ body{
     font-weight: 300;
     color: #354142;
 }
+
 /*heading and logo*/
 h1, h2{
     font-family: 'Vidaloka', sans-serif;
@@ -18,7 +19,45 @@ h1, h2{
 }
 
 #logo {
-    float: left;
+    text-align: center;
     font-size: 280%;
-    margin-left: 30px;
+}
+
+/* Navigation Bar Design */
+
+header {
+    width: 100%;
+    letter-spacing: 4px;
+}
+#menu-outer {
+    width:100%;
+	height: 50px;
+	border-top: 1px solid  #354142;
+    border-bottom: 1px solid  #354142;
+}
+.table {
+	display: table;
+	margin: 0 auto;
+}
+ul#menu {
+	min-width: 350px;
+	list-style: none;
+    padding-top: 10px;
+	}
+
+ul#menu li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+	}
+
+header a {
+    text-decoration: none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
