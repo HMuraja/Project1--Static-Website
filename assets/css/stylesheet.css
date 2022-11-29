@@ -99,3 +99,29 @@ header a {
     float: right;
 }
 
+/*style the about section*/
+#about-content > h2,h3{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+#about-title{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#about-content {
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+#about-content div {
+    color:#fafafa;
+    background-color: rgba(53, 65, 66, 0.7);
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1.5px;
+}
