@@ -2,6 +2,8 @@
 
 This website is called ReDenim and it represents a webpage for an imaginary vintage jeans store located in Edinburgh Scotland. The site provides information on what the store offers and how to reach their services. This websitenis targeted towards audience with interest in sustainable fashion, recycling, upcycling, vintage and styling services. The sites idea is to attract potential customer for a visit or to reach out as the store does not have online platform for selling their items but is specialised in providing tailored service at store. 
 
+![Am I Responsive](/readme-meadia/am-i-responsive-redenim.png)
+
 ## Features 
 
 ### Navigation Bar
@@ -10,12 +12,16 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - Navigation panel items are highlighted if the linked page is being viewed, working therefore an indicator of the current location. 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
+![navigation](/readme-meadia/navigation-panel.png)
+
 ### Footer
 
   - On the bottom of each page there is a footer containing the address, opening time and social media icons acting as link to the ReDenims social media accounts. 
   - If the icons are clicked, they will lead to the Instagram and facebook front pages. 
   - On the top of the footer there is header stating, “Visit Us!” informing the viewer that the information below should lead them to the store. 
   - This footer is present at the same location in identical form on all three pages, so the viewer has a quick access to the information for visiting the store. 
+![Footer](/readme-meadia/footer.png)
+
 
 ### Home Page
 
@@ -27,7 +33,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - The section detailing the denim expertise has a hyperlink to the services page, provide a seamless transition to more information on services page.
 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Home Page](/readme-meadia/homepage.png)
 
 ### Service Page
 
@@ -37,7 +43,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
  - A hyperlink is embedded into each one of the service texts, providing an easy and seamless access to the page with the query form in case viewer has any questions.
 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Service Page](/readme-meadia/serices-page.png)
 
 ### Contact Us Page 
 
@@ -49,11 +55,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - The dropdown menu with the purpose of the query has 4 options: General, Repair and Tailoring, Fit and Style consultation and Donation and Recycling. 
   - Once the form has been completed and sent page will take you into the window from Code Academy informing that form was successfully completed. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact Us Page](/contactus.html)
 
 ### Features Left to Implement
 
@@ -70,17 +72,15 @@ http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
  
 - All three files were run on the HTML Validator with following results.
   - When testing the index.html no errors were detected.
-  - When checking services.html two errors were detected. Both were concerning stray end tags of “</div>” on lines 75 and 76. Strayed end tags corrected and second check performed without any further errors detected.
+  - When checking services.html two errors were detected. Both were concerning stray end tags of “div” on lines 75 and 76. Strayed end tags corrected and second check performed without any further errors detected.
   - Contactus.html ran into two errors. First error occurred due to having “name” attribute twice on line 43 of file. One of the attributes removed to fix the issue. Second error occurred due to having “type” attribute for the textarea element on line 51. Bug fixed by removing the “type” and it’s value from the text area element attributes. Contactus.html ran again without any errors.
-
-
 
 ### Validator Testing 
 
 - HTML
   - All three files were run on the HTML Validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   - Two of th files had errors first time around:
-     - When checking services.html two errors were detected. Both were concerning stray end tags of “</div>” on lines 75 and 76. Strayed end tags corrected and second check performed without any further errors detected.
+     - When checking services.html two errors were detected. Both were concerning stray end tags of “div” on lines 75 and 76. Strayed end tags corrected and second check performed without any further errors detected.
      - Contactus.html ran into two errors. First error occurred due to having “name” attribute twice on line 43 of file. One of the attributes removed to fix the issue. Second error occurred due to having “type” attribute for the textarea element on line 51. Bug fixed by removing the “type” and it’s value from the text area element attributes. Contactus.html ran second time without any errors.
 
 - CSS
@@ -98,6 +98,22 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+ - Gitpod was used to program and pre-view the webpage. Github was the repository for the files during the process and currently the storage for the finalized code. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+ - Coding Institute’s I love Running Project was a source for inspiration particularly when drafting the navigation menu and form for queries. 
+ 
+ - Googles Developer Tool was used to test the webpage on different screen sizes and to troubleshoot any issues while building the website. 
+ - W3 website was used as supporting material for the development of the site.
+
+
+
+ ## Content
+ - [Am I Responsive](https://ui.dev/amiresponsive) used to produce the image of webpage on different viewports.
+ - [MyColorSpace](https://mycolor.space/) used to find complementary colors for the webpage.
+ - [FontJoy](https://fontjoy.com/) used to find complementary fonts that I then used to create importable link in [Google Fonts](https://fonts.google.com/).
+ - The icons used in this project were taken from [Font Awesome](https://fontawesome.com/)
+
+ ## Media
+ - Images are stock photos downloaded from [Pexels](https://www.pexels.com/). 
+ - Images on Readme.md file are screenshot taken from this project.
+ 
