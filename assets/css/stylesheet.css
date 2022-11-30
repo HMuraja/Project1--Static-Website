@@ -40,8 +40,7 @@ header {
 	border-top: 1px solid  #354142;
     border-bottom: 1px solid  #354142;
 }
-.table {
-	display: table;
+table {
 	margin: 0 auto;
 }
 ul#menu {
@@ -106,50 +105,39 @@ header a {
 
 .about-content {
     background-position: center;
-    width: 100%;
     overflow: hidden;
-    padding-bottom: 10px;
+    padding: 20px;
     border-bottom: #354142 solid 1px;
 }
 .about-content div {
     color:#fafafa;
     background-color: rgba(53, 65, 66, 0.7);
-    width: 33%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
+    width: 90%;
+    height: auto;
+    padding: 5%;
     text-align: center;
-    box-sizing: border-box;
-    margin: 1.5px;
+    margin: 2px;
 }
 /*Footer Styling*/
 
 footer {
-    padding-top: 20px;
-}
-footer h2 {
-    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 25%;
+    width:50%;
     text-align: center;
-    padding: 20px;
 }
 
 footer div{
-    display: inline-block;
-    width: 33%;
-    height: 100px;
-    text-align: center;
-    vertical-align: top;
+    margin-top: 30px;
 }
 
 table{
-    width: 90%;
-    text-align: right;
+    width: 300px;
+    text-align: center;
 }
 
 .social-network {
     font-size: 250%;
-    margin:1%;
-    padding: 5%;
     color: #3a3a3a;
 }
 
@@ -270,13 +258,43 @@ table{
 }
 
 /* Media Queries */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1240px){
     header {
         width: 100%;
         letter-spacing: 2px;
     }
- 
 
-
+}
+@media screen and (min-width: 1240px){
+    .about-content div {
+        color:#fafafa;
+        background-color: rgba(53, 65, 66, 0.7);
+        width: 33%;
+        height: 300px;
+        float: left;
+        padding: 30px 0 0 10px;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 2px;
+    }
+    .about-content {
+        background-position: center;
+        overflow: hidden;
+        padding: 20px;
+        border-bottom: #354142 solid 1px;
+    }
+    /* Footer style */
+    footer div{
+        display: inline-block;
+        width: 33%;
+        height: 100px;
+        text-align: center;
+        vertical-align: top;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
 }
 
