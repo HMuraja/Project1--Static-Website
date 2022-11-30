@@ -39,6 +39,7 @@ header {
 	height: 50px;
 	border-top: 1px solid  #354142;
     border-bottom: 1px solid  #354142;
+    text-align: center;
 }
 table {
 	margin: 0 auto;
@@ -258,7 +259,7 @@ table{
 @media screen and (max-width: 1240px){
     header {
         width: 100%;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
 }
