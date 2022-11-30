@@ -2,7 +2,7 @@
 
 This website is called ReDenim and it represents a webpage for an imaginary vintage jeans store located in Edinburgh Scotland. The site provides information on what the store offers and how to reach their services. This websitenis targeted towards audience with interest in sustainable fashion, recycling, upcycling, vintage and styling services. The sites idea is to attract potential customer for a visit or to reach out as the store does not have online platform for selling their items but is specialised in providing tailored service at store. 
 
-![Am I Responsive](/readme-meadia/am-i-responsive-redenim.png)
+![Am I Responsive](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-mockup.png)
 
 ## Features 
 
@@ -12,7 +12,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - Navigation panel items are highlighted if the linked page is being viewed, working therefore an indicator of the current location. 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![navigation](/readme-meadia/navigation-panel.png)
+![navigation](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-navigation.png)
 
 ### Footer
 
@@ -20,7 +20,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - If the icons are clicked, they will lead to the Instagram and facebook front pages. 
   - On the top of the footer there is header stating, “Visit Us!” informing the viewer that the information below should lead them to the store. 
   - This footer is present at the same location in identical form on all three pages, so the viewer has a quick access to the information for visiting the store. 
-![Footer](/readme-meadia/footer.png)
+![Footer](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-footer.png)
 
 
 ### Home Page
@@ -33,7 +33,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - The section detailing the denim expertise has a hyperlink to the services page, provide a seamless transition to more information on services page.
 
 
-![Home Page](/readme-meadia/homepage.png)
+![Home Page](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-homepage.png)
 
 ### Service Page
 
@@ -43,7 +43,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
  - A hyperlink is embedded into each one of the service texts, providing an easy and seamless access to the page with the query form in case viewer has any questions.
 
 
-![Service Page](/readme-meadia/serices-page.png)
+![Service Page](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-serices.png)
 
 ### Contact Us Page 
 
@@ -55,7 +55,7 @@ This website is called ReDenim and it represents a webpage for an imaginary vint
   - The dropdown menu with the purpose of the query has 4 options: General, Repair and Tailoring, Fit and Style consultation and Donation and Recycling. 
   - Once the form has been completed and sent page will take you into the window from Code Academy informing that form was successfully completed. 
 
-![Contact Us Page](/contactus.html)
+![Contact Us Page](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-contact.png)
 
 ### Features Left to Implement
 
