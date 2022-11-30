@@ -142,13 +142,10 @@ table{
 }
 
 /* Additional styling for about our services */
-.services {
-    display: inline-block;
-    width: 24%;
-    height: 600px;
+.services{
+    margin: 10px;
     text-align: center;
-    vertical-align: top;
-} 
+}
 #services-title{
     text-align: center;
     padding: 10px;
@@ -171,7 +168,7 @@ table{
 }
 #measure-img{
     background: url(../images/measuring-assitance.jpg) no-repeat center center;
-    width: 100%;
+    max-width: 500px;
     height: 300px;
     background-size: cover;
 }
@@ -296,5 +293,14 @@ table{
         text-align: center;
         margin-left: 0;
     }
+    /* Services style */
+    .services {
+        display: inline-block;
+        width: 24%;
+        height: 600px;
+        text-align: center;
+        vertical-align: top;
+        margin: 1px;
+    } 
 }
 
