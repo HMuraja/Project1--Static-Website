@@ -261,6 +261,24 @@ table{
         width: 100%;
         letter-spacing: 1px;
     }
+    .signup-form {
+        margin: 30px 5% 0 0;
+        color: #fff;
+        background-color:  rgba(53, 65, 66, 0.8);
+        max-width: 800px;
+        position:absolute;
+        left: 5%;
+        padding:10px;
+        border-radius: 3px;
+        border: 5px double #fff;
+    }
+    .form-section {
+        clear: left;
+        background: url(../images/jeans-stack.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 650px;
+    }
 
 }
 @media screen and (min-width: 1240px){
@@ -270,7 +288,7 @@ table{
         width: 33%;
         height: 300px;
         float: left;
-        padding: 30px 0 0 10px;
+        padding: 10px 0 0 10px;
         text-align: center;
         box-sizing: border-box;
         margin: 2px;
