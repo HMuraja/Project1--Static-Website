@@ -117,6 +117,8 @@ header a {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: #354142 solid 1px;
 }
 #about-content div {
     color:#fafafa;
