@@ -105,7 +105,7 @@ header a {
 }
 
 /*style the about section*/
-#about-content > h2,h3{
+.about-content > h2,h3{
     padding-bottom: 10px;
 }
 #about-title{
@@ -113,14 +113,14 @@ header a {
     text-align: center;
 }
 
-#about-content {
+.about-content {
     background-position: center;
     width: 100%;
     overflow: hidden;
     padding-bottom: 10px;
     border-bottom: #354142 solid 1px;
 }
-#about-content div {
+.about-content div {
     color:#fafafa;
     background-color: rgba(53, 65, 66, 0.7);
     width: 33%;
