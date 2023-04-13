@@ -29,7 +29,6 @@ header {
     letter-spacing: 4px;
     text-align: center;
     margin-top: 10px;
-    border: #354142 solid 1px;
 }
 
 #menu{
@@ -39,7 +38,6 @@ header {
     list-style: none;
     padding: 5px;
     margin: auto;
-    border: #354142 solid 1px;
 }
 
 header a {
