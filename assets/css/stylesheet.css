@@ -28,16 +28,18 @@ header {
     width: 100%;
     letter-spacing: 4px;
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
+    border: #354142 solid 1px;
 }
 
 #menu{
-    margin: 5px;
     display: flex;
     justify-content:space-evenly;
     max-width: 600px;
     list-style: none;
+    padding: 5px;
     margin: auto;
+    border: #354142 solid 1px;
 }
 
 header a {
@@ -46,10 +48,10 @@ header a {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid orange;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    font-weight: 600;
 }
 
 /*Cover page photo*/
