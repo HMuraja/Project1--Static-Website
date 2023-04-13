@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Vidaloka&display=swap');
+
+/*General text style*/
 *{
     margin: 0;
     padding: 0;
@@ -10,56 +12,39 @@ body{
     color: #354142;
 }
 
-/*heading and logo*/
-h1, h2{
+h3, h2{
+    letter-spacing: 4px;
+}
+
+.logo-style {
     font-family: 'Vidaloka', sans-serif;
-    text-transform: lowercase;
     letter-spacing: 4px;
     color: #354142;
 }
 
-h3{
-    letter-spacing: 4px;
-}
-
-#logo {
-    text-align: center;
-    font-size: 280%;
-    text-transform: none;
-}
-
-/* Navigation Bar Design */
+/* Header Style */
 
 header {
     width: 100%;
     letter-spacing: 4px;
-}
-#menu-outer {
-    width:100%;
-	height: 50px;
-	border-top: 1px solid  #354142;
-    border-bottom: 1px solid  #354142;
     text-align: center;
+    margin: 10px;
 }
-table {
-	margin: 0 auto;
-}
-ul#menu {
-	min-width: 350px;
-	list-style: none;
-    padding-top: 10px;
-	}
 
-ul#menu li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-	}
+#menu{
+    margin: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    max-width: 600px;
+    list-style: none;
+    margin: auto;
+}
 
 header a {
     text-decoration: none;
     color:inherit;
 }
+
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
