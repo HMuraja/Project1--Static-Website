@@ -54,23 +54,33 @@ header a {
 
 /*Cover page photo*/
 
-#homepage-outer {
-    clear: left;
-    background: url(../images/denim-shelf-wide.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+#introduction-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
-.introduction-container {
-    margin:200px 10% 0 0;
-    color: #fff;
-    background-color:  rgba(53, 65, 66, 0.9);
-    max-width: 800px;
-    position:absolute;
-    left: 10%;
-    padding:40px;
-    border-radius: 3px;
-    border: 5px double #fff;
+
+#introduction-img{
+    background-image: url(../images/jeans-selection.jpg);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size:cover;
+}
+#introduction-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction-overlay>div{
+    background-color: #fafafa9e;
+    padding: 15px;
 }
 
 #sub-logo{
@@ -240,71 +250,7 @@ table{
     border: 1px solid #fff;
 }
 
-/* Media Queries */
-@media screen and (max-width: 1240px){
-    header {
-        width: 100%;
-        letter-spacing: 1px;
-    }
-    .signup-form {
-        margin: 30px 5% 0 0;
-        color: #fff;
-        background-color:  rgba(53, 65, 66, 0.8);
-        max-width: 800px;
-        position:absolute;
-        left: 5%;
-        padding:10px;
-        border-radius: 3px;
-        border: 5px double #fff;
-    }
-    .form-section {
-        clear: left;
-        background: url(../images/jeans-stack.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 650px;
-    }
-
-}
 @media screen and (min-width: 1240px){
-    .about-content div {
-        color:#fafafa;
-        background-color: rgba(53, 65, 66, 0.7);
-        width: 33%;
-        height: 300px;
-        float: left;
-        padding: 10px 0 0 10px;
-        text-align: center;
-        box-sizing: border-box;
-        margin: 2px;
-    }
-    .about-content {
-        background-position: center;
-        overflow: hidden;
-        padding: 20px;
-        border-bottom: #354142 solid 1px;
-    }
-    /* Footer style */
-    footer div{
-        display: inline-block;
-        width: 33%;
-        height: 100px;
-        text-align: center;
-        vertical-align: top;
-    }
-    footer{
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-    }
-    /* Services style */
-    .services {
-        display: inline-block;
-        width: 24%;
-        height: 600px;
-        text-align: center;
-        vertical-align: top;
-        margin: 1px;
-    } 
+
 }
 
