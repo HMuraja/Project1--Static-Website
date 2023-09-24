@@ -1,5 +1,5 @@
-# Project 1 - Static Website
-# Vintage Denim Store
+# Project 1 - Vintage Denim Store
+*A Static Website displaying the use of HTML&CSS*
 
 This website has been built for fictionary Denim store ReDenim, selling second hand jeans located in Edinburgh Scotland. The site provides information about the stores, services, their ideology and ways to contact them. The website was designed to cater towards an audience with interest in sustainable fashion, recycling, upcycling, vintage and styling services. The sites purpose is to attract potential customer for a visit or to reach out as the store does not have online platform for selling their items but is specialised in providing tailored service at store. 
 
