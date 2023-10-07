@@ -139,49 +139,68 @@ table{
 }
 
 /* Additional styling for about our services */
-.services{
-    margin: 10px;
-    text-align: center;
+#services-border {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
-#services-title{
-    text-align: center;
+
+#services-title {
     padding: 10px;
+}
+
+.services {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15px;
+    color: #354142;
+    font-size: 110%;
+    box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.services h3{
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 .pricing{
     text-decoration: none;
     font-weight: 700;
-}
-#services-border{
-    border-bottom: solid #354142 1px;
-    padding-bottom: 10px;
+    color: #8a989a;
+    margin-bottom: 20px;
 }
 
-#fitting-img{
-    background: url(../images/fitting-room.jpg) no-repeat center center;
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-}
-#measure-img{
-    background: url(../images/measuring-assitance.jpg) no-repeat center center;
-    max-width: 500px;
-    height: 300px;
-    background-size: cover;
+.services-text-box {
+    width: 90%;
+    height: fit-content;
+    padding-bottom: 30px;
+    margin: auto;
 }
 
-#sewingmachine-img{
-    background: url(../images/sewing-machine.jpg) no-repeat center center;
+.img-settings{
     width: 100%;
     height: 300px;
     background-size: cover;
+    background-position: center;
 }
-#box-jeans-img{
-    background: url(../images/box-of-jeans.jpg) no-repeat center center;
-    width: 100%;
-    height: 300px;
-    background-size: cover;
+
+.fit-style-img{
+    background-image: url(../images/picking-jeans.jpg) ;
 }
+.alterations-img{
+    background-image: url(../images/rolling-jeans.jpg) ;
+}
+.repairs-img{
+    background-image: url(../images/worn-out-denim.jpg);
+}
+.upcycling-img{
+    background-image: url(../images/box-of-jeans.jpg);
+}
+
 /*Query Form Style*/
 .form-section {
     clear: left;
@@ -249,18 +268,5 @@ table{
     background-color:#354142;
     color: #ff8a43;
     border: 1px solid #fff;
-}
-
-@media screen and (min-width: 1240px){
-
-    #introduction-container {
-        height: 500px;
-        background-color: #fafafae9;
-    }
-
-    #introduction-overlay>div{
-        font-size: 110%;
-    }
-
 }
 

@@ -1,0 +1,42 @@
+@media screen and (min-width: 1240px){
+
+    #introduction-container {
+        height: 500px;
+        background-color: #fafafae9;
+    }
+
+    #introduction-overlay>div{
+        font-size: 110%;
+    }
+
+    /* Services style */
+
+    #services-border {
+        max-width: 2000px;
+    }
+
+    .services{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        max-width: none;
+    }
+    
+    .services div{
+        padding: 10px;
+    }
+    
+    .services + .reverse-order{
+        flex-flow: row-reverse;
+    }
+    
+    .services-text-box {
+        width: 100%;
+    }
+    
+    .img-settings{
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+}
