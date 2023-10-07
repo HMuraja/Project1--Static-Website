@@ -1,9 +1,19 @@
-# Project 1 - Vintage Denim Store
+<div align=center>
+
+<h1><strong>ReDenim - Vintage Denim Store</strong></h1>
+
 *A Static Website displaying the use of HTML&CSS*
+
+<img src="readme-media/redenim-mockup.png" width=600>
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 
 This website has been built for fictionary Denim store ReDenim, selling second hand jeans located in Edinburgh Scotland. The site provides information about the stores, services, their ideology and ways to contact them. The website was designed to cater towards an audience with interest in sustainable fashion, recycling, upcycling, vintage and styling services. The sites purpose is to attract potential customer for a visit or to reach out as the store does not have online platform for selling their items but is specialised in providing tailored service at store. 
 
-![Am I Responsive](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-mockup.png)
+</div>
 
 ## Features 
 
