@@ -1,6 +1,6 @@
 @media screen and (min-width: 1240px){
+    
     /*Menu*/
-
     .menubtn {
         visibility: hidden;
         position: absolute;
@@ -16,18 +16,50 @@
     .menucontent a {
         padding: 20px 16px;
     }
+
     .menudrop:hover .menucontent {
         display: flex;
     }
 
     /*Intro Container*/
-    #introduction-container {
-        height: 500px;
-        background-color: #fafafae9;
+
+    #introduction-overlay {
+        padding: 100px;
+        width: 50%;
+        bottom: 0;
+        text-align: left;
     }
 
-    #introduction-overlay>div{
-        font-size: 110%;
+    #introduction-overlay h2 {
+        font-size: 500%;
+        color: #fafafab7;
+    }
+
+    #introduction-overlay p{
+        font-size: 130%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #introduction-container {
+        height: 800px;
+        background-color: none;
+    }
+
+    /*About Section */
+
+    .about-container {
+        display: flex;
+        max-width: none;
+        margin: 0;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-imgs{
+        border-radius: 45%;
     }
 
     /* Services style */
