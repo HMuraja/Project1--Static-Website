@@ -1,5 +1,26 @@
 @media screen and (min-width: 1240px){
+    /*Menu*/
 
+    .menubtn {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .menucontent {
+        display: flex;
+        justify-content: space-around;
+        box-shadow: none;
+        position: static;
+    }
+    
+    .menucontent a {
+        padding: 20px 16px;
+    }
+    .menudrop:hover .menucontent {
+        display: flex;
+    }
+
+    /*Intro Container*/
     #introduction-container {
         height: 500px;
         background-color: #fafafae9;
