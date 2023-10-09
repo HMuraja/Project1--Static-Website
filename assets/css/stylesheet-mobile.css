@@ -228,9 +228,11 @@ table{
 
 /* Additional styling for about our services */
 #services-border {
+    background-color: rgba(238, 240, 240, 1);
     margin: auto;
-    width: 90%;
+    width: 100%;
     padding-bottom: 30px;
+    padding-top: 30px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -242,7 +244,8 @@ table{
 }
 
 .services {
-    width: 100%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 1);
     max-width: 600px;
     margin-bottom: 15px;
     color: #354142;
@@ -258,15 +261,19 @@ table{
 .pricing{
     text-decoration: none;
     font-weight: 700;
-    color: #8a989a;
-    margin-bottom: 20px;
+    color:  rgba(53, 65, 66, 0.5);
 }
 
 .services-text-box {
-    width: 90%;
     height: fit-content;
-    padding-bottom: 30px;
-    margin: auto;
+    padding: 5px 30px 30px 30px;
+}
+
+hr{
+    border: #f19963 solid 2px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 75%;
 }
 
 .img-settings{

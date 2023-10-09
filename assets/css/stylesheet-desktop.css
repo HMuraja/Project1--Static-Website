@@ -61,18 +61,17 @@
     .about-imgs{
         border-radius: 45%;
     }
+    hr{
+        width: 50%;
+    }
 
     /* Services style */
-
-    #services-border {
-        max-width: 2000px;
-    }
 
     .services{
         display: flex;
         flex-flow: row;
         align-items: center;
-        max-width: none;
+        max-width: 2000px;
     }
     
     .services div{
