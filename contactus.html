@@ -26,31 +26,34 @@
         </div>
     </header>
 
-    <section class="form-section">
-        <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
+    <section class="form-container">
+        <div class="form-overlay">
             <h2>Contact Us</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" class="text-input" required>
-            
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" class="text-input" required>
-            
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" class="text-input" required>
+            <form method="get" action="/successpage.html" class="signup-form">
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" class="form-field" required>
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" class="form-field" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="form-field" required>
+    
+                <label for="query-type">What does my query concern:</label>
+                <select name="query-type" id="query-type" class="form-field">
+                    <option value="general" class="drop-down-text">General Equiry</option>
+                    <option value="consultation" class="drop-down-text">Fit and Style Consultation</option>
+                    <option value="alteration_repair" class="drop-down-text">Alterations and Repairs</option>
+                    <option value="recycling_donation" class="drop-down-text">Recycling and Donations</option>
+                </select>
+                
+                <label for="your-query">Your query:</label>
+                <textarea id="your-query" cols="50" rows="10" name="query_text" placeholder="Tell us what you would like to know?" class="form-field"></textarea>
+                
+                <input type="submit" value="Send my Query!" class="send-query-button">
+            </form>
+        </div>
 
-            <label for="query-type">What does my query concern:</label>
-            <select name="query-type" id="query-type" class="text-input">
-                <option value="general" class="drop-down-text">General Equiry</option>
-                <option value="consultation" class="drop-down-text">Fit and Style Consultation</option>
-                <option value="alteration_repair" class="drop-down-text">Alterations and Repairs</option>
-                <option value="recycling_donation" class="drop-down-text">Recycling and Donations</option>
-            </select>
-            
-            <label for="your-query">Your query:</label>
-            <textarea id="your-query" cols="50" rows="10" name="query_text" placeholder="Tell us what you would like to know?" class="text-field"></textarea>
-            
-            <input type="submit" value="Send my Query!" class="send-query-button">
-        </form>
     </section>
 
     <footer>

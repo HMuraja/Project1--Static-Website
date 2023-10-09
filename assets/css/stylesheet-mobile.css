@@ -304,56 +304,70 @@ hr{
 }
 
 /*Query Form Style*/
-.form-section {
-    clear: left;
-    background: url(../images/jeans-stack.jpg);
+.form-container {
+    background: url(../images/jeans-windowsill.jpg);
     background-size: cover;
     background-position: center;
-    height: 900px;
-}
-.signup-form {
-    margin:150px 10% 0 0;
-    color: #fff;
-    background-color:  rgba(53, 65, 66, 0.8);
-    max-width: 800px;
-    position:absolute;
-    left: 10%;
-    padding:40px;
-    border-radius: 3px;
-    border: 5px double #fff;
+    height: 800px;
+    position: relative;
 }
 
-.signup-form > h2 {
-    color:#fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input{
-    background:transparent;
-    color:#fafafa;
+.form-overlay{
     width: 100%;
-    height: 25px;
+    height: 100%;
+    position:absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-overlay > h2 {
+    font-size: 300%;
+    color: #fff;
+}
+
+.signup-form {
+    text-align: left;
+    color: #354142ea;
+    font-size: medium;
+    font-weight: bold;
+    background-color:  #f9f9f9f1;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    margin: 5%;
+}
+
+.form-field{
+    background: rgba(53, 65, 66, 0.135);
+    color:#354142;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
     margin: 5px 0 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    }
+    border-radius: 5px;
+    font-size: medium;
+}
 
 .drop-down-text{
-    color: #354142;
-}
-.text-input:hover{
-    border-color: #ff8a43;
+    font-size: medium;
 }
 
-.text-field{
-    background:#354142;
-    color:#fafafa;
-    width: 100%;
+.form-field:hover{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3) inset;
+}
+
+.form-field:focus{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3) inset;
+    outline: none !important;
+}
+
+#your-query{
     height: 100px;
-    margin: 5px 0 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    }
+}
 
 .send-query-button{
     margin-top: 20px;
@@ -362,13 +376,34 @@ hr{
     text-align: center;
     font-size: 100%;
     background-color: #ff8a43;
+    font-weight: bold;
+    border-radius: 25px;
     color: #fafafa;
     display: block;
 }
 
 .send-query-button:hover{
-    background-color:#354142;
-    color: #ff8a43;
-    border: 1px solid #fff;
+    background-color: #cb692c;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3) inset;
+}
+
+/*Succesful submission*/
+
+.succesful-message{
+    font-size: xx-large;
+    font-weight: bold;
+    background-color:  #f9f9f9f1;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.succesful-message a{
+    text-decoration: none;
+    font-size: medium;
 }
 
