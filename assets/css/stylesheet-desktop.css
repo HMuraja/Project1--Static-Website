@@ -24,10 +24,14 @@
     /*Intro Container*/
 
     #introduction-overlay {
-        padding: 100px;
-        width: 50%;
-        bottom: 0;
-        text-align: left;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+    #introduction-overlay div{
+        width: fit-content;
+        max-width: 600px;
     }
 
     #introduction-overlay h2 {
@@ -42,7 +46,7 @@
     }
 
     #introduction-container {
-        height: 800px;
+        height: 500px;
         background-color: none;
     }
 
