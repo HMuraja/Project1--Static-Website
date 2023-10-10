@@ -83,119 +83,6 @@ header a {
     font-weight: 600;
 }
 
-/*Cover page photo*/
-
-.homepage-container {
-    width: 100%;
-    height: 900px;
-    position: relative;
-}
-
-.homepage-background{
-    background-image: url(../images/jeans-selection.jpg);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size:cover;
-}
-
-.homepage-overlay {
-    position: absolute;
-    color: #fafafab7;
-    width: 100%;
-    height: 100%;
-    font-size: 120%;
-    display: flex;
-    flex-direction: column;
-}
-
-.homepage-overlay h2 {
-    font-size: 300%;
-    color:#f1f1f1dc;
-    text-align: center;
-}
-
-.about-background{
-    background-color: rgba(53, 65, 66, 0.7);
-    width: 100%;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-.about-container {
-    max-width: 800px;
-    color:#354142;
-    font-size: medium;
-    text-align: center;
-    z-index: 5;
-    margin: 0;
-}
-
-.about-content {
-    border-radius: 5px;
-    margin: 70px 10px 50px 10px;
-    padding: 20px;
-    max-width: 500px;
-    background-color: #f1f1f1dc;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
-}
-
-.about-content p {
-    text-align: left;
-}
-
-.about-content h3 {
-    margin: 15px;
-}
-
-.about-content button{
-    background-color: #ff8a43;
-    border: solid 2px #ff8a43;
-    cursor: pointer;
-    border-radius: 25px;
-    padding: 15px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.about-content a{
-    text-decoration: none;
-    color: #f9f9f9;
-    font-size:medium;
-    font-weight: bold;
-}
-
-.about-content button:hover {
-    background-color: #edc3a9;
-    border: #f9f9f9 2px solid;
-}
-
-.about-content button:hover a{
-    color: rgba(53, 65, 66, 1);
-}
-
-.about-imgs{
-    height: 250px;
-    width: 250px;
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-    border-radius: 45%;
-    z-index: 3;
-}
-
-.sustainability-img{
-    background-image: url(../images/recycling-fabric.jpg);
-}
-
-.expertice-img{
-    background-image: url(../images/unfolding-jeans.jpg);
-}
-
-.uniqueitems-img{
-    background-image: url(../images/jeans-hanger.jpg);
-}
 /*Footer Styling*/
 
 footer {
@@ -237,7 +124,142 @@ table th{
     margin: 10px;
 }
 
-/* Additional styling for about our services */
+/*Home Page*/
+
+.homepage-container {
+    min-width: 300px;
+    width: 100%;
+    height: 1650px;
+    position: relative;
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-background{
+    background-image: url(../images/jeans-selection.jpg);
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+}
+
+.homepage-overlay {
+    position: absolute;
+    color: #fafafab7;
+    width: 100%;
+    height: 100%;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-overlay h2 {
+    font-size: 300%;
+    color:#f1f1f1dc;
+    text-align: center;
+}
+
+.introduction-container{
+    max-width: 400px;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introduction-container h2 {
+    font-size: 300%;
+}
+
+.introduction-container p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.about-background{
+    background-color: rgba(53, 65, 66, 0.7);
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-container {
+    max-width: 800px;
+    color:#354142;
+    font-size: medium;
+    text-align: center;
+}
+
+.about-content {
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #f1f1f1dc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.about-content p {
+    text-align: left;
+}
+
+.about-content h3 {
+    margin: 15px;
+}
+
+.about-content button{
+    background-color: #ff8a43;
+    border: solid 2px #ff8a43;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.about-content a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.about-content button:hover {
+    background-color: #edc3a9;
+    border: #f9f9f9 2px solid;
+}
+
+.about-content button:hover a{
+    color: rgba(53, 65, 66, 1);
+}
+
+.about-imgs{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    border-radius: 45%;
+}
+
+.sustainability-img{
+    background-image: url(../images/recycling-fabric.jpg);
+}
+
+.expertice-img{
+    background-image: url(../images/unfolding-jeans.jpg);
+}
+
+.uniqueitems-img{
+    background-image: url(../images/jeans-hanger.jpg);
+}
+
+/* Services Page*/
 #services-border {
     background-color: rgba(238, 240, 240, 1);
     margin: auto;

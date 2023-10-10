@@ -22,24 +22,22 @@
     }
 
     /*Home Page*/
+    .homepage-container{
+        height: 900px;
+    }
+
     .homepage-background{
         max-width: 1800px;
-    }
-    .homepage-container{
-        display: flex;
-        justify-content: center;
-        background-color: #3a3a3a;
+        height: 100%;
     }
 
     .homepage-overlay {
         justify-content: end;
-        width: 100%;
-        flex-wrap:wrap;
-        align-items: center;
     }
 
     .introduction-container{
-        width: 600px;
+        max-width: 600px;
+        height: fit-content;
     }
 
     .introduction-container h2 {
@@ -48,8 +46,6 @@
 
     .introduction-container p {
         font-size: larger;
-        text-align: center;
-        font-weight: bold;
     }
 
     .about-container {
@@ -61,14 +57,15 @@
 
     .about-content {
         width: 100%;
-        box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.2);
+        margin: 70px 10px 50px 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
     }
 
+    /* Services Page */
     hr{
         width: 50%;
     }
-
-    /* Services style */
+    
     .services{
         display: flex;
         flex-flow: row;
@@ -89,7 +86,7 @@
     }
     
     .img-settings{
-        height: 600px;
+        height: 500px;
         background-size: cover;
         background-position: center;
     }
