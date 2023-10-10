@@ -21,50 +21,49 @@
         display: flex;
     }
 
-    /*Intro Container*/
-
-    #introduction-overlay {
+    /*Home Page*/
+    .homepage-background{
+        max-width: 1800px;
+    }
+    .homepage-container{
+        display: flex;
         justify-content: center;
+        background-color: #3a3a3a;
+    }
+
+    .homepage-overlay {
+        justify-content: end;
         width: 100%;
+        flex-wrap:wrap;
+        align-items: center;
     }
 
-    
-    #introduction-overlay div{
-        width: fit-content;
-        max-width: 600px;
+    .introduction-container{
+        width: 600px;
     }
 
-    #introduction-overlay h2 {
-        font-size: 500%;
-        color: #fafafab7;
+    .introduction-container h2 {
+        font-size: 400%;
     }
 
-    #introduction-overlay p{
-        font-size: 130%;
-        padding: 10px;
-        border-radius: 10px;
+    .introduction-container p {
+        font-size: larger;
+        text-align: center;
+        font-weight: bold;
     }
-
-    #introduction-container {
-        height: 500px;
-        background-color: none;
-    }
-
-    /*About Section */
 
     .about-container {
         display: flex;
         max-width: none;
-        margin: 0;
+        justify-content: center;
+        width: 100%;
     }
 
     .about-content {
         width: 100%;
+        box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.2);
     }
 
-    .about-imgs{
-        border-radius: 45%;
-    }
     hr{
         width: 50%;
     }
@@ -103,6 +102,16 @@
 
     .signup-form {
         margin: 0;
+    }
+
+    /*Footer Styling*/
+
+    footer {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
     }
 
 }
