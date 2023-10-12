@@ -272,6 +272,11 @@ table th{
     align-items: center;
 }
 
+#services-border h2 {
+    font-size: 500%;
+    margin-bottom: 30px;
+}
+
 #services-title {
     padding: 10px;
 }
@@ -284,6 +289,7 @@ table th{
     color: #354142;
     font-size: 110%;
     box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .services h3{
@@ -314,6 +320,7 @@ hr{
     height: 300px;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 
 .fit-style-img{

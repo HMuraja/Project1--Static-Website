@@ -63,7 +63,7 @@
 
     /* Services Page */
     hr{
-        width: 50%;
+        width: 30%;
     }
     
     .services{
@@ -86,7 +86,8 @@
     }
     
     .img-settings{
-        height: 500px;
+        height: 300px;
+        width: 30%;
         background-size: cover;
         background-position: center;
     }
