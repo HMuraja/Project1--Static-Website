@@ -8,6 +8,7 @@
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
@@ -38,57 +39,73 @@ The sites purpose is to attract potential customer for a visit or to reach out a
 
 ### Footer
 
-  - On the bottom of each page there is a footer containing the address, opening time and social media icons acting as link to the ReDenims social media accounts. 
-  - If the icons are clicked, they will lead to the Instagram and facebook front pages. 
-  - On the top of the footer there is header stating, “Visit Us!” informing the viewer that the information below should lead them to the store. 
-  - This footer is present at the same location in identical form on all three pages, so the viewer has a quick access to the information for visiting the store.
+  - Footer is fixed on the bottom of each page they contain the address, opening time and social media icons acting as link to the ReDenims social media accounts. 
+  - Clicking the social media icons will open a new tab for Instagram or facebook front pages. 
+  - Footer layoute changes depending on the screensize.
 
 <div align=center>
-<img src="readme-media/redenim-navigation-mobile.png" width=300>
+<img src="readme-media/redenim-footer-mobile.png" width=300>
   
-  *Mobile Navigation Bar*
+  *Mobile Footer*
   
-<img src="readme-media/redenim-navigationl.png" width=600>
+<img src="readme-media/redenim-footer-desktop.png" width=600>
 
-  *Desktop Navigation Bar*
+  *Desktop Footer*
 </div>
-
-![Footer](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-footer.png)
 
 
 ### Home Page
 
-  - Home page for this website contains an introduction statement and image as well as description of what ReDenim does.
-  - The introduction image and description are on the top of the page and viewer will see this as the first thing when searching information about ReDenim. 
-  - Introduction statement describes in one sentence what ReDenim is: “Sustainable option for fast fashion. Located in Edinburgh Stockbridge neighbourhood”. 
-  - The background photo of jeans stacked on a shelf creating immediately an idea that ReDenim is a store with selection of jeans. 
-  - Second part of the home page describes in more detail what the store offers and narrows this down into three topics that are squared in their own boxes. This information about should deepen the viewers understanding of ReDenims services and how it stands out among other retailers. 
-  - The section detailing the denim expertise has a hyperlink to the services page, provide a seamless transition to more information on services page.
+  - Home page contains an introduction statement and image as well as description of what ReDenim does.
+  - Introduction statment and images set the mood for the page and briefly introduce visitor for the store.  
+  - Second part of the home page describes in more detail what the store offers and narrows this down into three sections that have been separated on to their own "cards". 
+  - Each card has a topic appropriate image and a brief description of the topic.
+  - Services card has a hyperlink to the services page for seamless transition.
 
+<div align=center>
+  <img src="readme-media/redenim-home-page-mobile.png" height=250> 
+  <img src="readme-media/redenim-home-desktop.png" height=250>
 
-![Home Page](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-homepage.png)
+  *Services on mobile and desktop*
+</div>
 
 ### Service Page
 
- - Services page details the 4 types of services offered. These services are divided onto 4 boxes that lay next to each other or after each other depending on what size of viewport is used.
- - Above each service title there is a image giving the viewer a hint of the content before reading the text. 
- - Under some of the service links there is statement of cost of the service. 
+ - On this page reader can find information about services offered. All services, 4 in total, have a description "card" detailing the all the information to the reader.
+ - On each card there is an image giving the viewer a hint of the content before reading the text. 
+ - The of cost of the service is stated on the card right after the title. 
  - A hyperlink is embedded into each one of the service texts, providing an easy and seamless access to the page with the query form in case viewer has any questions.
 
+<div align=center>
+  <img src="readme-media/redenim-services-mobile-1.png" height=250>
+  <img src="readme-media/redenim-services-mobile-2.png" height=250>
+  <img src="readme-media/redenim-services-mobile-3.png" height=250>
+  <img src="readme-media/redenim-services-desktop.png" height=250>
 
-![Service Page](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-serices.png)
+  *Services on mobile and desktop*
+</div>
 
 ### Contact Us Page 
 
-  - The contact us page offers a query form for the viewer in case they want to contact ReDenim about any other questions. 
-  - This query form requires first name, second name, email, purpose of the query which is a dropdown menu, a text field for writing free text and a submit button stating “Send My Query”. 
-  - As a background there is pile of folded jeans just keep up with the theme and also to provide a darker background that still looks interesting. 
-  - All the fields require entry before being able to send the query. If the submit button is pressed before sending without filling all the field a message will pop up requesting to fill the missed field. 
+  - This page offers an easy to fill form for the visitor incase they want to contact the store.
+  - This query form requires first name, second name, email, purpose of the query which is a dropdown menu, a text field for writing free text and a submit button stating “Submit”.  
+  - All the fields apart from the textfield require an entry before the query can be sent. If a required field is not filled an error message on the field will occure requesting the field to be filled. 
   - If the field is selected the border will turn orange indicating for the viewer which box is selected.
   - The dropdown menu with the purpose of the query has 4 options: General, Repair and Tailoring, Fit and Style consultation and Donation and Recycling. 
-  - Once the form has been completed and sent page will take you into the window from Code Academy informing that form was successfully completed. 
+  - Once the form has been completed and sent the form will be replaced with a message informing of successful submission and a return button that will allow you to return to the submission page. 
 
-![Contact Us Page](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-contact.png)
+<div align=center>
+  <img src="readme-media/redenim-contact-mobile-1.png" height=250>
+  <img src="readme-media/redenim-contact-mobile-2.png" height=250>
+  <img src="readme-media/redenim-contact-desktop.png" height=250>
+
+  *Contact form on mobile and desktop*
+
+  <img src="readme-media/redenim-contact-validation.png" height=100>
+  <img src="readme-media/redenim-contact-success.png" height=100>
+
+  *Contact form on validation message and the message after succesfull submission*
+</div>
 
 ### Features Left to Implement
 
@@ -97,55 +114,60 @@ The sites purpose is to attract potential customer for a visit or to reach out a
 
 ## Testing 
 
-- Websites responsiveness alternative screensizes was tested using chrome developer tools
-- The CSS file stylesheet.css raw dta was copied and pasted on CSS Validator Jigsaw W3 text area. No erros were detected. Please see figure below or the following links:
-http://jigsaw.w3.org/css-validator/validator$link
-or
-http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
- 
-- All three files were run on the HTML Validator with following results.
-  - When testing the index.html no errors were detected.
-  - When checking services.html two errors were detected. Both were concerning stray end tags of “div” on lines 75 and 76. Strayed end tags corrected and second check performed without any further errors detected.
-  - Contactus.html ran into two errors. First error occurred due to having “name” attribute twice on line 43 of file. One of the attributes removed to fix the issue. Second error occurred due to having “type” attribute for the textarea element on line 51. Bug fixed by removing the “type” and it’s value from the text area element attributes. Contactus.html ran again without any errors.
+- Responsiveness was tested on chrome developer tools ensuring all information was easy to view in all screensizes.
+- HTML code was tested usign the W3C [HTML validator](https://validator.w3.org/).
+- The CSS code was tested using the W3C [CSS validator](https://jigsaw.w3.org/css-validator/).
+- 
+### Validator Tool Results
+The deployed sites URL was fed to the validator to test sites the HTML and CSS compliance to the W3C standards.
 
-### Validator Testing 
+**1st Validation** 
 
-- HTML
-  - All three files were run on the HTML Validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  - Two of th files had errors first time around:
-     - When checking services.html two errors were detected. Both were concerning stray end tags of “div” on lines 75 and 76. Strayed end tags corrected and second check performed without any further errors detected.
-     - Contactus.html ran into two errors. First error occurred due to having “name” attribute twice on line 43 of file. One of the attributes removed to fix the issue. Second error occurred due to having “type” attribute for the textarea element on line 51. Bug fixed by removing the “type” and it’s value from the text area element attributes. Contactus.html ran second time without any errors.
+No errors were found from CSS.
+1 error was found from HTML.
+As a result the button element was removed around the <a> element in *index.html* and button style was implemented on it.
+<div>
+  <img width="551" alt="Screen capture of the error" src="https://github.com/HMuraja/denimstore-website/assets/115192139/44814935-6aeb-48e7-baa6-6014c1162af0">
+</div>
 
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+**2nd validation**
+
+Both CSS and HTML passed.
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 ## Deployment
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://hmuraja.github.io/Portfolio1-The-Vintage-Denim-Store/
-
+- The site was deployed on Github Pages.
+- Following steps were taken:
+  1. In the project's GitHub repository, navigate to the Settings tab.
+  2. On the **Source** section *Deploy from a branch* must be selected.
+  3. On the **Branch** section the two dropdowns have to be set to *main* and */docs*.
+  4. Once the above settings are set click *save* on the **Branch** section and wait for GitHub to deploy the page.
 
 ## Credits 
 
- - Gitpod was used to program and pre-view the webpage. Github was the repository for the files during the process and currently the storage for the finalized code. 
-
- - Coding Institute’s I love Running Project was a source for inspiration particularly when drafting the navigation menu and form for queries. 
- 
+ - Gitpod and VSCode were the IDEs used to during this project.
+ - Github was the repository for the files during the process and currently the storage for the finalized code. 
+ - Coding Institute’s [Love Running Walkthrough Project](https://github.com/Code-Institute-Org/love-running-2.0) was a source for inspiration particularly when drafting the form for queries. 
  - Googles Developer Tool was used to test the webpage on different screen sizes and to troubleshoot any issues while building the website. 
  - W3 website was used as supporting material for the development of the site.
 
-
-
- ## Content
+## Content
  - [Am I Responsive](https://ui.dev/amiresponsive) used to produce the image of webpage on different viewports.
  - [MyColorSpace](https://mycolor.space/) used to find complementary colors for the webpage.
  - [FontJoy](https://fontjoy.com/) used to find complementary fonts that I then used to create importable link in [Google Fonts](https://fonts.google.com/).
  - The icons used in this project were taken from [Font Awesome](https://fontawesome.com/)
 
- ## Media
- - Images are stock photos downloaded from [Pexels](https://www.pexels.com/). 
- - Images on Readme.md file are screenshot taken from this project.
+## Media
+ - Images are stock photos downloaded from [Pexels](https://www.pexels.com/), [Unspalsh](https://unsplash.com/) and [Pixbay](https://pixabay.com/). 
