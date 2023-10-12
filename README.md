@@ -2,9 +2,9 @@
 
 <h1><strong>ReDenim - Vintage Denim Store</strong></h1>
 
-*A Static Website displaying the use of HTML&CSS*
+*A Static Website displaying the use of HTML&CSS - [live site](hmuraja.github.io/denimstore-website/)*
 
-<img src="readme-media/redenim-mockup.png" width=600>
+<img src="readme-media/amIresponsive.png" width=600>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white)
@@ -20,19 +20,39 @@ The sites purpose is to attract potential customer for a visit or to reach out a
 ## Features 
 
 ### Navigation Bar
-  - A navigation panel and the store logo are present at the same location, top of the page, on all three pages. 
+  - A navigation panel is fixed on the top of the view port on all sites.
   - Each of the navigation panel items is linked to the page with the corresponding name. 
-  - Navigation panel items are highlighted if the linked page is being viewed, working therefore an indicator of the current location. 
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The selected page is on bold on the navigation menu.
+  - On smaller screensizes the menu collapses to drop downmenu. 
+  - Navigation panel allows the user to easily navigate from page to page across all devices.
 
-![navigation](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-navigation.png)
+<div align=center>
+<img src="readme-media/redenim-navigation-mobile.png" width=300>
+  
+  *Mobile Navigation Bar*
+  
+<img src="readme-media/redenim-navigationl.png" width=600>
+
+  *Desktop Navigation Bar*
+</div>
 
 ### Footer
 
   - On the bottom of each page there is a footer containing the address, opening time and social media icons acting as link to the ReDenims social media accounts. 
   - If the icons are clicked, they will lead to the Instagram and facebook front pages. 
   - On the top of the footer there is header stating, “Visit Us!” informing the viewer that the information below should lead them to the store. 
-  - This footer is present at the same location in identical form on all three pages, so the viewer has a quick access to the information for visiting the store. 
+  - This footer is present at the same location in identical form on all three pages, so the viewer has a quick access to the information for visiting the store.
+
+<div align=center>
+<img src="readme-media/redenim-navigation-mobile.png" width=300>
+  
+  *Mobile Navigation Bar*
+  
+<img src="readme-media/redenim-navigationl.png" width=600>
+
+  *Desktop Navigation Bar*
+</div>
+
 ![Footer](https://github.com/HMuraja/Portfolio1-The-Vintage-Denim-Store/blob/3efb387e724385235a5a5ad86f7b5f6649d0e784/readme-media/redenim-footer.png)
 
 
