@@ -72,6 +72,10 @@
         align-items: center;
         max-width: 2000px;
     }
+
+    #services-border h2{
+        font-size: 500%;
+    }
     
     .services div{
         padding: 10px;

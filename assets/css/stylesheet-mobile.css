@@ -88,6 +88,7 @@ header a {
 footer {
     width:80%;
     text-align: center;
+    margin: auto;
 }
 footer h3 {
     margin-bottom: 5px;
@@ -273,7 +274,7 @@ table th{
 }
 
 #services-border h2 {
-    font-size: 500%;
+    font-size: 300%;
     margin-bottom: 30px;
 }
 
