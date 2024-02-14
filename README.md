@@ -2,7 +2,7 @@
 
 <h1><strong>ReDenim - Vintage Denim Store</strong></h1>
 
-*A Static Website displaying the use of HTML&CSS - [live site](hmuraja.github.io/denimstore-website/)*
+*A Static Website displaying the use of HTML&CSS - [live site](https://hmuraja.github.io/denimstore-website/)*
 
 <img src="readme-media/amIresponsive.png" width=600>
 
